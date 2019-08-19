@@ -1,41 +1,574 @@
-
 <!DOCTYPE html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Please, no.</title>
-        <meta name="description" content="Please, no.">
-        <meta name="viewport" content="width=device-width">
-        <style>
-          p, a {
-            color: #c6c6c6;
-          }
-          .footer {
-            position: fixed;
-            left: 50%;
-            bottom: 0;
-            width: 90%;
-            text-align: center;
-            transform: translate(-50%, 0);
-          }
-          .centered {
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -60%);
-          }
-          h1 {
-            font-size: 100px;
-          }
-        </style>
-    </head>
-    <body>
-      <div class="centered">
-        <h1>Please, nop.</h1>
-        <div id="gif"></div>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7 lte-ie9"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8 lte-ie9"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9 lte-ie9"> <![endif]-->
+<!--[if IE 9]>         <html class="no-js lte-ie9"> <![endif]-->
+<!--[if gt IE 9]><!--> 
+<html lang="en" class="no-js" xmlns:fb="http://ogp.me/ns/fb#" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/" itemscope="itemscope" itemtype="http://schema.org/WebPage"> <!--<![endif]-->
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# challengepost: http://ogp.me/ns/fb/challengepost#">
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <title>The home for hackathons</title>
+
+    <meta name="description" content="Build products, practice skills, learn technologies, win prizes, and grow your network." />
+<meta property="og:title" content="Pavlov Solutions" />
+<meta property="og:description" content="Build products, practice skills, learn technologies, win prizes, and grow your network." />
+<meta property="og:type" content="challengepost:website" />
+<meta property="og:site_name" content="Devpost - The home for hackathons" />
+<meta property="og:image" content="./files/mouse.jpg" />
+<meta property="og:url" content="https://pavlov.solutions" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@pavlov.solutions" />
+<meta name="twitter:title" content="Pavlov Solutions" />
+<meta name="twitter:description" content="Build products, practice skills, learn technologies, win prizes, and grow your network." />
+<meta name="twitter:image" content="./files/mouse.jpg" />
+<meta name="twitter:domain" content="pavlov.solutions" />
+<meta name="twitter:url" content="https://pavlov.solutions" />
+<meta name="twitter:creator" content="@pavlov.solutions" />
+<meta itemprop="name" content="Pavlov Solutions" />
+<meta itemprop="description" content="Build products, practice skills, learn technologies, win prizes, and grow your network." />
+<meta itemprop="image" content="./files/mouse.jpg" />
+
+    <!--[if gt IE 7]><!-->
+    <link rel="stylesheet" media="screen" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" />
+    <link rel="stylesheet" media="screen" href="https://devpost-challengepost.netdna-ssl.com/assets/reimagine2-48924748bc4255e58c6e2d8dc62e5a07.css" />
+    <link rel="stylesheet" media="screen" href="https://devpost-challengepost.netdna-ssl.com/assets/home/home_application-60cfbdbb4c25905ed7e6eb0a6735347c.css" />
+    
+
+    <!--<![endif]-->
+
+  </head>
+
+  <body id="body-home" class="foundation-grid action-index controller-home engine-home">
+   
+<!--[if lte IE 9 ]>
+  <div id="unsupported_browser_version" class="persistent_message alert-box alert">
+    <p>
+      We've detected that you are using an unsupported browser.  Please
+      <a href="http://browsehappy.com/">upgrade your browser</a>
+      to Internet Explorer 10 or higher.
+    </p>
+  </div>
+<![endif]-->
+
+
+<!--googleon: anchor-->
+
+ 
+    
+    
+  
+<header id="global-nav">
+  <div class="contain-to-grid hide-for-large-up">
+  <nav class="top-bar" data-topbar>
+    <ul class="title-area top-bar-section">
+      <li>
+        <a class="toggle-topbar has-dropdown text-center" data-target-menu="world" id="hamburger" href="#">
+          <i class="ss-icon ss-rows"></i>
+</a>      </li>
+      <li class="name">
+
+        <span id="logo">
+  <a href="https://pavlov.solutions">
+    <img alt="Devpost" src="./files/devpost-logo-646bdf6ac6663230947a952f8d354cad.svg" />
+</a></span>
+
+      </li>
+
+      
+        <li class="right">
+    <ul class="right logged-out">
+  <li><a href="https://secure.devpost.com/users/login?ref=top-nav-login">Log ino</a></li>
+  <li class="show-for-medium-up">
+    <a id="signup-link" href="https://pavlov.solutions">
+      <span class="inner-button">
+        Sign up
+      </span>
+</a>  </li>
+</ul>
+
+  </li>
+
+    </ul>
+
+    <section class="top-bar-section" data-top-nav-menu="user">
+      
+    </section>
+
+    <section class="top-bar-section" data-top-nav-menu="world">
+      <ul class="right">
+  <li class="divider"></li>
+<li>
+  <a class="main-link" data-role="discover" href="https://pavlov.solutions">
+    Hackathons
+</a></li>
+<li class="divider"></li>
+<li>
+  <a class="main-link" data-role="projects" href="https://pavlov.solutions">
+    Projects
+</a></li>
+<li class="divider"></li>
+<li>
+  <a class="main-link" data-role="for-orgs" href="https://pavlov.solutions">
+    For organizations
+</a></li>
+
+</ul>
+
+    </section>
+  </nav>
+</div>
+
+  <div class="contain-to-grid hide-for-small hide-for-medium">
+  <nav class="top-bar" data-topbar>
+    <ul class="title-area">
+      <li class="name">
+        <span id="logo">
+  <a href="https://pavlov.solutions">
+    <img alt="Devpost" src="./files/devpost-logo-646bdf6ac6663230947a952f8d354cad.svg" />
+</a></span>
+
+      </li>
+    </ul>
+
+    <section class="top-bar-section">
+      <ul class="left">
+  <li class="divider"></li>
+<li>
+  <a class="main-link" data-role="discover" href="https://pavlov.solutions">
+    Hackathons
+</a></li>
+<li class="divider"></li>
+<li>
+  <a class="main-link" data-role="projects" href="https://pavlov.solutions">
+    Projects
+</a></li>
+<li class="divider"></li>
+<li>
+  <a class="main-link" data-role="for-orgs" href="https://pavlov.solutions">
+    For organizations
+</a></li>
+
+</ul>
+
+        <ul class="right logged-out">
+  <li><a href="https://pavlov.solutions">Log in</a></li>
+  <li class="show-for-medium-up">
+    <a id="signup-link" href="https://pavlov.solutions">
+      <span class="inner-button">
+        Sign up
+      </span>
+</a>  </li>
+</ul>
+
+
+    </section>
+  </nav>
+</div>
+
+</header>
+
+
+
+
+
+    <section id="container">
+      
+      
+  
+
+
+
+<header id="homepage-header">
+  <div class="row">
+    <div class="small-12 large-8 columns">
+      <h1 class="large">The home for hackathons</h1>
+      <h2 class="large">Build products, practice skills, learn technologies, win prizes, and grow your network.</h2>
+        <a class="button radius bordered large" href="https://pavlov.solutions">Sign up to hear about new hackathons</a>
+    </div>
+  </div>
+</header>
+
+
+  
+
+    <section class="featured-hackathons page-section dark">
+    <div class="row">
+      <div class="small-12 columns">
+        <section class="featured-challenges" data-featured-challenges="base">
+              
+  <div class="row" id="featured-in-person">
+    <div class="columns small-12 section-header">
+      <div class="row">
+        <div class="small-12 large-8 columns">
+          <h2>
+            Featured In-Person Hackathons
+          </h2>
+        </div>
+        <div class="small-12 large-4 columns">
+        </div>
       </div>
-      <div class="footer">
-        <p>You...</p>
+    </div>
+    <div class="columns small-12">
+        <div class="row">
+          
+  <div class="columns small-12 large-6">
+    <div data-browse-challenges="challenge-listing" class="homepage-challenge">
+        <article class="hackathon-tile featured">
+    <a class="clearfix" data-role="featured_challenge" href="https://pavlov.solutions">
+
+      <div class="container">
+        <figure class="challenge-logo">
+          <img alt="image" class="thumbnail_image image-replacement" src="./files/medium.png" />
+        </figure>
+
+        <div class="content">
+          <div class="challenge-synopsis">
+            <div>
+              <h5 class="title">
+                CryptoChicks Blockchain and AI Youth
+              </h5>
+
+              <p class="challenge-description">
+                Blockchain and AI Youth hackathon
+              </p>
+
+              <div class="meta-data">
+                <div class="row collapse">
+                  <div class="small-12 large-6 columns">
+                    <p class="challenge-date">
+                      <i class='fas fa-trophy '></i> <span class="value"><span data-currency="true">$<span data-currency-value>4,000</span></span></span> <span class="action">in prizes</span>
+                    </p>
+                  </div>
+                  <div class="small-12 large-6 columns">
+                    <p class="challenge-location">
+                      <i class='fas fa-user-friends '></i> <span class="value">7</span><span class="action"> participants</span>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="row collapse">
+                  <div class="small-12 large-6 columns">
+                    <p class="challenge-date">
+                      <i class='far fa-calendar-alt '></i> Aug 23 - Aug 25, 2019
+                      <span data-time-to-submit class="time-to-submit hide">
+                        Starts in <time datetime="2019-08-23T09:00:00-04:00">August 23 at 9:00am EDT</time>
+                      </span>
+                    </p>
+                  </div>
+                  <div class="small-12 large-6 columns">
+                    <p class="challenge-location">
+                      <i class='fas fa-map-marker-alt '></i> Nassau, The Bahamas
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
       </div>
-    </body>
-</html>
+</a>  </article>
+
+    </div>
+  </div>
+
+  <div class="columns small-12 large-6">
+    <div data-browse-challenges="challenge-listing" class="homepage-challenge">
+        <article class="hackathon-tile featured">
+    <a class="clearfix" data-role="featured_challenge" href="https://pavlov.solutions">
+
+      <div class="container">
+        <figure class="challenge-logo">
+          <img alt="image" class="thumbnail_image image-replacement" src="./files/medium.png" />
+        </figure>
+
+        <div class="content">
+          <div class="challenge-synopsis">
+            <div>
+              <h5 class="title">
+                UHack 2019 
+              </h5>
+
+              <p class="challenge-description">
+                An exciting fast-paced innovation competition!
+              </p>
+
+              <div class="meta-data">
+                <div class="row collapse">
+                  <div class="small-12 large-6 columns">
+                    <p class="challenge-date">
+                      <i class='fas fa-trophy '></i> <span class="value"><span data-currency="true">$<span data-currency-value>24,000</span></span></span> <span class="action">in prizes</span>
+                    </p>
+                  </div>
+                  <div class="small-12 large-6 columns">
+                    <p class="challenge-location">
+                      <i class='fas fa-user-friends '></i> <span class="value">42</span><span class="action"> participants</span>
+                    </p>
+                  </div>
+                </div>
+
+                <div class="row collapse">
+                  <div class="small-12 large-6 columns">
+                    <p class="challenge-date">
+                      <i class='far fa-calendar-alt '></i> Sep  6 - Sep  8, 2019
+                      <span data-time-to-submit class="time-to-submit hide">
+                        Starts in <time datetime="2019-09-06T03:00:00-04:00">September 06 at 3:00am EDT</time>
+                      </span>
+                    </p>
+                  </div>
+                  <div class="small-12 large-6 columns">
+                    <p class="challenge-location">
+                      <i class='fas fa-map-marker-alt '></i> Australia
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+</a>  </article>
+
+    </div>
+  </div>
+
+        </div>
+        <div class="row">
+          
+  <div class="columns small-12 large-6">
+    <div data-browse-challenges="challenge-listing" class="homepage-challenge">
+        <article class="hackathon-tile featured">
+    <a class="clearfix" data-role="featured_challenge" href="#">
+
+      <div class="container">
+        <figure class="challenge-logo">
+          <img alt="image" class="thumbnail_image image-replacement" src="./files/medium_no.png" />
+        </figure>
+
+        <div class="content">
+          <div class="challenge-synopsis">
+            <div>
+              <h5 class="title">
+              </h5>
+
+             </div>
+          </div>
+        </div>
+      </div>
+</a>  </article>
+
+    </div>
+  </div>
+
+
+
+
+  <div class="columns small-12 large-6">
+    <div data-browse-challenges="challenge-listing" class="homepage-challenge">
+        <article class="hackathon-tile featured">
+    <a class="clearfix" data-role="featured_challenge" href="#">
+
+      <div class="container">
+        <figure class="challenge-logo">
+          <img alt="image" class="thumbnail_image image-replacement" src="./files/medium_no.png" />
+        </figure>
+
+        <div class="content">
+          <div class="challenge-synopsis">
+            <div>
+              <h5 class="title">
+              </h5>
+
+             </div>
+          </div>
+        </div>
+      </div>
+</a>  </article>
+
+    </div>
+  </div>
+
+
+
+
+        </div>
+    </div>
+  </div>
+
+            
+  <div class="row" id="featured-online">
+    <div class="columns small-12 section-header">
+      <div class="row">
+        <div class="small-12 large-8 columns">
+          <h2>
+            Featured
+          </h2>
+        </div>
+        <div class="small-12 large-4 columns">
+        </div>
+      </div>
+    </div>
+    <div class="columns small-12">
+        <div class="row">
+          
+  <div class="columns small-12 large-6">
+    <div data-browse-challenges="challenge-listing" class="homepage-challenge">
+        <article class="hackathon-tile featured">
+    <a class="clearfix" data-role="featured_challenge" href="#">
+
+      <div class="container">
+        <figure class="challenge-logo">
+          <img alt="image" class="thumbnail_image image-replacement" src="./files/medium_no.png" />
+        </figure>
+
+        <div class="content">
+          <div class="challenge-synopsis">
+            <div>
+              <h5 class="title">
+              </h5>
+
+             </div>
+          </div>
+        </div>
+      </div>
+</a>  </article>
+
+    </div>
+  </div>
+
+   <div class="columns small-12 large-6">
+    <div data-browse-challenges="challenge-listing" class="homepage-challenge">
+        <article class="hackathon-tile featured">
+    <a class="clearfix" data-role="featured_challenge" href="#">
+
+      <div class="container">
+        <figure class="challenge-logo">
+          <img alt="image" class="thumbnail_image image-replacement" src="./files/medium_no.png" />
+        </figure>
+
+        <div class="content">
+          <div class="challenge-synopsis">
+            <div>
+              <h5 class="title">
+              </h5>
+
+             </div>
+          </div>
+        </div>
+      </div>
+</a>  </article>
+
+    </div>
+  </div>
+
+        </div>
+        <div class="row">
+          
+         </div>
+    </div>
+  </div>
+
+
+        </section>
+      </div>
+    </div>
+  </section>
+
+
+
+<section class="page-section companies hide-for-small">
+  <div class="row">
+    <div class="large-12 columns">
+      <div class="text-center">
+        <img class="hide-for-small" src="./files/partner_logos.png" alt="Homepage customer logos" />
+      </div>
+    </div>
+  </div>
+</section>
+
+      
+    </section>
+
+    
+  <footer id="devpost-footer">
+  <div class="row">
+    <div class="small-6 large-4 columns">
+      <nav>
+        <h4>Pavlov</h4>
+        <ul>
+          <li><a href="https://pavlov.solutions/about">About</a></li>
+          <li><a href="https://pavlov.solutions/contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="small-6 large-4 columns">
+      <nav>
+        <h4>Solutions</h4>
+        <ul>
+          <li><a href="https://pavlov.solutions/bots">Bots</a></li>
+          <li><a href="https://pavlov.solutions/parsers">Parsers</a></li>
+          <li><a href="https://pavlov.solutions/automation">Automation</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <hr class="clear show-for-small">
+
+    <div class="small-6 large-4 columns">
+      <nav>
+
+      </nav>
+    </div>
+
+    <div class="small-6 large-4 columns">
+      <nav>
+        <h4>Connect</h4>
+        <ul class="social-links">
+          <li>
+            <a href="https://twitter.com" target="_blank">
+              <i class="fa fa-twitter-square"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com" target="_blank">
+              <i class="fa fa-facebook-square"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com" target="_blank">
+              <i class="fa fa-youtube-square"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="small-6 large-12 columns">
+      <nav id="site-footer-legal">
+        <h4 class="show-for-small">Legal</h4>
+        <ul>
+          <li><a><small>Version 1.0</small></a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+
+
+<!--[if lt IE 9 ]>
+  <script type="text/javascript">
+    $(function onDocumentReady() {
+      CP.IE.Notifications.setup();
+    });
+  </script>
+<![endif]-->
+
+  
+
+</body></html>
